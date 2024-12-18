@@ -139,3 +139,20 @@ A: /root/jdks/java-8/release
 
 Final:
 Q: lines whose (it contains "JAVA_VERSION") of  file "release" of folder ( value of  variable "JAVA_HOME" of environment)
+
+############## substring operations and references ###########################
+Q: substrings separated by "=" of lines whose (it contains "JAVA_VERSION") of  file "release" of folder ( value of  variable "JAVA_HOME" of environment)
+A: JAVA_VERSION
+A: "1.8.0_252"
+T: 225
+20:56
+
+Q: substring after "="  of lines whose (it contains "JAVA_VERSION") of  file "release" of folder ( value of  variable "JAVA_HOME" of environment)
+A: "1.8.0_252"
+T: 217
+
+Reference : substring: https://developer.bigfix.com/relevance/search/?query=substring
+
+developer.bigfix.comdeveloper.bigfix.com
+Inspector Search | BigFix Developer
+
